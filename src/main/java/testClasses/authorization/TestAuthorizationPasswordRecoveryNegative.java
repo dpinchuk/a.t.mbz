@@ -28,9 +28,6 @@ public class TestAuthorizationPasswordRecoveryNegative {
     private String testPasswordLogin;
     private String testPasswordConfirmLogin;
 
-
-
-
     public TestAuthorizationPasswordRecoveryNegative(String site, long delay, String testNameLogin, String testSurnameLogin, String testEmailLogin, String testNumberLogin, String testPasswordLogin, String testPasswordConfirmLogin) {
         this.site = site;
         this.delay = delay;
